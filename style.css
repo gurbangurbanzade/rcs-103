@@ -1,0 +1,92 @@
+.box1 {
+  border: 5px solid green;
+  /* padding: 30px; */
+  /* background-color: blue; */
+}
+
+body {
+  /* cursor: url("https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png"),
+    auto; */
+}
+/* .secret {
+  display: none;
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  z-index: -1;
+} */
+.boxItem {
+  border: 2px solid black;
+  font-size: 30px;
+  cursor: pointer;
+  cursor: not-allowed;
+  /* display: inline-block; */
+}
+
+.boxItem2 {
+  border: 2px solid black;
+  /* display: inline-block; */
+  /* margin: 40px; */
+}
+
+.boxItem3 {
+  border: 2px solid black;
+  /* display: inline-block; */
+  /* margin: 40px; */
+}
+div {
+  color: red;
+}
+
+a {
+  color: red;
+}
+
+#logo {
+  color: blue;
+}
+.someText {
+  color: purple;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.ietm99 {
+  color: green;
+  background-color: red;
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  /* padding: 40px; */
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  .boxItem {
+    font-size: 16px;
+    /* display: inline-block; */
+  }
+}
+body {
+  width: 100%;
+}
+.container {
+  border: 2px solid red;
+  width: 100%;
+}
+.ietm100 {
+  border: 1px solid black;
+  /* margin: 30px 50px; */
+  /* margin: 0 auto; */
+  width: 100%;
+  text-align: center;
+}
